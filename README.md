@@ -13,7 +13,9 @@
 
 ### LICENCE
 
-:construction:
+[![License: GPL-2.0](https://img.shields.io/github/license/rqguzman/traversy_loruki?color=0F80c0)](https://github.com/rqguzman/traversy_loruki/blob/main/LICENSE)
+
+
 
 ### TECHNOLOGIES
 <p>
