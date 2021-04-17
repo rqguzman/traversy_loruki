@@ -34,3 +34,44 @@ p {
 img {
     width: 100%;
 }
+
+/* NAVBAR */
+.navbar {
+    height: 70px;
+    background-color: #047AED;
+    color: white;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar a {
+    margin: 0 5px;
+    padding: 10px;
+    color: white;
+}
+
+.navbar a:hover {
+    border-bottom: 2px solid white;
+}
+
+.navbar .flex {
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+    overflow: auto;/* removes 10px margin from h1 */
+}
+
+    /* auxiliary class 
+    might be applied elsewhere */
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
