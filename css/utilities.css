@@ -1,5 +1,39 @@
 /* UTILITIES */
 /* auxiliary classes that might be applied anywhere. */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 40px;
+  overflow: auto; /* removes 10px margin from h1 */
+}
+
+.card {
+  background-color: #fff;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  color: #333;
+}
+
+/* buttons */
+.btn {
+  display: inline-block;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 30px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-outline {
+  border: 1px solid white;
+  background-color: transparent;
+}
+
+.btn:hover {
+  transform: scale(0.98);
+}
 
 /* Backgrounds and colored buttons */
 .bg-primary,
@@ -34,23 +68,22 @@
 .btn-dark a {
   color: #FFF;
 }
-/* buttons */
-.btn {
-  display: inline-block;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 30px;
-  color: white;
-  cursor: pointer;
+
+/* text colors */
+.text-primary {
+  color: var(--primary-color);
 }
 
-.btn-outline {
-  border: 1px solid white;
-  background-color: transparent;
+.text-secondary{
+  color: var(--secondary-color);
 }
 
-.btn:hover {
-  transform: scale(0.98);
+.text-dark{
+  color: var(--dark-color);
+}
+
+.text-light {
+  color: var(--light-color);
 }
 
 /* Text sizes */
@@ -74,20 +107,26 @@
   font-size: 4rem;
 }
 
-.card {
-  background-color: white;
-  margin: 10px;
-  border-radius: 10px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-  padding: 20px;
-  color: #333;
+/* Alert */
+.alert {
+  background-color: var(--light-color);
+  margin: 15px 0;
+  padding: 10px 20px;
+  font-weight: bold;
 }
 
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 40px;
-  overflow: auto; /* removes 10px margin from h1 */
+.alert i {
+  margin-right: 10px;
+}
+
+.alert-success {
+  background-color: var(--success-color);
+  color: #FFF;
+}
+
+.alert-error {
+  background-color: var(--error-color);
+  color: #FFF;
 }
 
 /* Positioning */
