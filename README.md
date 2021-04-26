@@ -8,7 +8,8 @@
     I've followed this tutorial in order to improve my CSS Grid and Flexbox skills.
 </p>
 <p>
-    Status: :construction: ongoing
+    Status: :rocket: deployed </br>
+    https://rqguzman-traversy-loruki.netlify.app/
 </p>
 
 ### LICENCE
